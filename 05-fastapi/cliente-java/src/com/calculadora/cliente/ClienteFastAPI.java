@@ -11,7 +11,7 @@ import java.net.http.HttpResponse;
 import java.util.Scanner;
 
 /**
- * ETAPA 4: Cliente Java que consume el servicio REST de FastAPI.
+ * ETAPA 5: Cliente Java que consume el servicio REST de FastAPI.
  *
  * Componentes:
  *  - java.net.http.HttpClient (incluido desde Java 11) para realizar
