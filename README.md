@@ -12,7 +12,7 @@ Cada carpeta es una etapa autocontenida con su propio README, código y motivaci
 | 2 | [`02-sockets-multihilo`](./02-sockets-multihilo) | Sockets TCP + `ExecutorService` | Concurrencia: N clientes en paralelo | Sigue siendo un protocolo de texto ad-hoc |
 | 3 | [`03-sockets-jackson`](./03-sockets-jackson) | Sockets multihilo + Jackson (JSON) | Objetos tipados sobre el cable; herramienta externa que evita parseo manual | Aún es TCP crudo; cliente y servidor solo Java |
 | 4 | [`04-rmi`](./04-rmi) | Java RMI | Llamadas remotas tipadas como si fueran locales | Solo Java; difícil de atravesar firewalls |
-| 5 | [`05-fastapi`](./05-fastapi) | FastAPI (Python) + cliente Java con Jackson | Interoperabilidad total vía HTTP+JSON; documentación automática con Swagger | — (estado del arte para microservicios web) |
+| 5 | [`05-fastapi`](./05-fastapi) | FastAPI (Python)  | Interoperabilidad total vía HTTP+JSON; documentación automática con Swagger | — (estado del arte para microservicios web) |
 
 ## Idea central
 
@@ -78,9 +78,7 @@ calculadora-distribuida/
     ├── README.md
     ├── servidor/main.py
     ├── servidor/requirements.txt
-    └── cliente-java/
-        ├── libs/                      (vacío; agregue aquí los JARs de Jackson)
-        └── src/com/calculadora/...
+ 
 ```
 
 ## Licencia
